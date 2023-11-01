@@ -41,4 +41,15 @@
   color: #888;
 }
 
-/* INITIAL ADDITIONS */
+/* -----------  DragBox Component styling  --------------------------------*/
+
+.main-dragbox-container {
+  display: grid;
+}
+
+.dragbox-container {
+  background-color: var(--neutral-medium);
+  border-radius: 1rem;
+  min-width: 750px;
+  justify-self: center;
+}
