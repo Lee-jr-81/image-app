@@ -19,7 +19,7 @@ function navbar() {
                             <a class="nav-link" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Go Premium!</a>
+                            <a class="nav-link" href="#">Features</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Log In</a>

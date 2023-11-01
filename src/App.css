@@ -45,14 +45,21 @@
 
 /*----------- Navbar formatting ------------*/
 .navbar {
-  background-color: tomato;
-  
+  position: fixed;
+  width: 100% !important;
+  background-color: transparent;
+  background-image: url(./assets/navBkgrd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+  box-shadow: 0 5px 35px darkgrey;
+
 }
 
 .navbar-nav {
   font-size: 30px;
-  background-color: pink;
-}
+  }
 
 .navbar-brand {
   padding-left: 50px;
