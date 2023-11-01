@@ -6,7 +6,9 @@ import "./App.css";
 function App() {
   return (
     <main className="background">
-      <h1 className="main_contain">Hello world</h1>
+      <section>
+        <h1 className="main_title">Welcome, </h1>
+      </section>
     </main>
   );
 }
