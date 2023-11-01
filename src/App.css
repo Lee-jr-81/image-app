@@ -42,3 +42,24 @@
 }
 
 /* INITIAL ADDITIONS */
+
+/*----------- Navbar formatting ------------*/
+.navbar {
+  background-color: tomato;
+  
+}
+
+.navbar-nav {
+  font-size: 30px;
+  background-color: pink;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+  font-size: 30px !important;
+}
+
+.navbar-nav {
+
+  background-color: aqua;
+}
