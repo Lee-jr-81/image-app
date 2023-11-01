@@ -1,17 +1,21 @@
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
+import Navbar from "./components/Navbar";
 import "./App.css";
 
 function App() {
   return (
-    <main className="background">
-      <section>
-        <h1 className="main_title">
-          <span>Welcome</span>, need an image compressing?{" "}
-        </h1>
-      </section>
-    </main>
+    <>
+      <Navbar />
+      <main className="background">
+        <section>
+          <h1 className="main_title">
+            <span>Welcome</span>, need an image compressing?{" "}
+          </h1>
+        </section>
+      </main>
+    </>
   );
 }
 
