@@ -39,9 +39,16 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 4.2em;
   line-height: 1.1;
+  color: #fff;
 }
+
+span {
+  color: var(--accent-orange);
+}
+
+/* Reintroduce later */
 
 button {
   border-radius: 8px;
