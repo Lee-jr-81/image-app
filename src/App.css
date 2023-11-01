@@ -48,17 +48,36 @@
 }
 
 .dragbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--boxes);
   border-radius: 1rem;
   min-width: 750px;
-  min-height: 175px;
-  /* justify-self: center; */
-  display: grid;
+  min-height: 250px;
+  box-shadow: 5px 5px 5px 5px #4b4b4b;
 }
 
 .title {
-  justify-content: center;
-  align-items: center;
   color: var(--neutral-text-dark);
   font-size: 1.2rem;
+}
+
+.Dashed-container {
+  display: flexbox;
+  align-content: ;
+  min-width: 550px;
+  min-height: 175px;
+  background-image: linear-gradient(
+      90deg,
+      var(--neutral-text-dark) 50%,
+      transparent 0
+    ),
+    linear-gradient(90deg, var(--neutral-text-dark) 50%, transparent 0),
+    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0),
+    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0);
+  background-color: var(--boxes);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
 }
