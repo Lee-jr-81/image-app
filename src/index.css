@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-
+/*---- keep----*/
   --neutral-light: #dfdfdf;
   --neutral-medium: #a2a2a2;
   --neutral-dark: #4e4e4e;
@@ -12,6 +12,7 @@
   --accent-light-yel: #ffc000;
   --accent-dark-yel: #dfa700;
   --accent-orange: #ff8200;
+/*---- keep----*/
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
