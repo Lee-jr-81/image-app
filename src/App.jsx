@@ -7,14 +7,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />,
-      <main className="background">
-        <section>
-          <h1 className="main_title">
-            <span>Welcome</span>, need an image compressing?{" "}
-          </h1>
-        </section>
-      </main>
+      <Navbar />,   
+    <main className="background">
+      <section>
+        <h1 className="main_title"></h1>
+      </section>
+    </main>
     </>
   );
 }
