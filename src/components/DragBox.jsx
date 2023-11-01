@@ -2,9 +2,9 @@ import React from "react";
 
 const DragBox = () => {
   return (
-    <section className="main-dragbox-container">
+    <section class="container-sm">
       <div className="dragbox-container">
-        <h1>Hello World</h1>
+        <h1 className="title">Drag Your Images Or Click To Browse</h1>
       </div>
     </section>
   );

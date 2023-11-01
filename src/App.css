@@ -48,8 +48,17 @@
 }
 
 .dragbox-container {
-  background-color: var(--neutral-medium);
+  background-color: var(--boxes);
   border-radius: 1rem;
   min-width: 750px;
-  justify-self: center;
+  min-height: 175px;
+  /* justify-self: center; */
+  display: grid;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  color: var(--neutral-text-dark);
+  font-size: 1.2rem;
 }
