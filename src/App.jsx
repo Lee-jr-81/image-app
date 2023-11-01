@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <Navbar />
+      <Navbar />,
       <main className="background">
         <section>
           <h1 className="main_title">
