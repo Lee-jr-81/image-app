@@ -59,7 +59,13 @@
   font-size: 30px !important;
 }
 
-.navbar-nav {
+.nav-link {
+  color: white !important;
+    text-decoration: none;
+    margin: 0 70px 0 90px !important;
+}
 
-  background-color: aqua;
+.nav-link:hover {
+  color: black !important;
+  font-weight: bold;
 }

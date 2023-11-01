@@ -5,7 +5,8 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 function navbar() {
     return (
         <section>
-            <nav class="navbar navbar-expand-lg ">
+            <nav class="navbar navbar-expand-lg">
+            
                 <a class="navbar-brand" href="#"> 
                 {/* <></> <-- put logo image link here*/}
                 Minify</a>
