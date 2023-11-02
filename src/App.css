@@ -61,6 +61,12 @@
   background-repeat: no-repeat;
   z-index: 5;
   box-shadow: 0 5px 35px darkgrey;
+  
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar-nav {
@@ -70,13 +76,15 @@
 .navbar-brand {
   padding-left: 50px;
   font-size: 30px !important;
+  font-weight: bolder;
 }
+
 
 .nav-link {
   color: white !important;
   text-decoration: none;
-  margin: 0 70px 0 90px !important;
-}
+  margin-left: 50px;
+  }
 
 .nav-link:hover {
   color: black !important;
