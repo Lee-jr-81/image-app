@@ -2,8 +2,11 @@ import React from 'react'
 
 export default function Banner() {
 	return (
-		<div>
-			<h1>Banner</h1>
+		<section>
+        <div class="banner-wrapper">
+        <h1 class="">Superfast & easy image <span class="">compression</span></h1><h2 class="h2-title"><span class="">Enhanced JPEG, PNG, SVG, GIF and WEBP optimization</span></h2>
 		</div>
+		<h2>Why Minify?</h2>
+        </section>
 	)
 }
