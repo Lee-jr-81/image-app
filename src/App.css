@@ -41,6 +41,41 @@
   color: #888;
 }
 
+
+/*---- Banner section styling ----*/
+
+.banner-wrapper .h2-title {
+  display: inline-block;
+  margin: 0 auto;
+  background: #fff;
+  color: #f95540;
+  padding: 0.25rem 0.5rem;
+  line-height: 1.5rem;
+  border-radius: 6px;
+  box-shadow: -1px 1px 2px rgba(0,0,0,.27);
+  border: 1px solid rgba(0,0,0,.04);
+  text-align: center;
+  font-size: 1.2rem;
+  font-variation-settings: "wght" 500;
+  
+  
+  background-image: linear-gradient( -90deg, #ff8200 0%, #ff8200 29%, #dfdfdf 67%, #fff 100% );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear(1.26 -14.45%, 0.96 26.62%) infinite;
+  display: inline-block;
+  font-size: 20px;
+ }
+ @keyframes textclip {
+  to {
+    background-position: 200% center;
+  
+}}
+
 /* INITIAL ADDITIONS */
 
 /*----------- Navbar formatting ------------*/
@@ -116,3 +151,4 @@
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
 }
+

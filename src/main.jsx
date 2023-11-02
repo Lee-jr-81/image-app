@@ -1,4 +1,11 @@
 
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import './index.css'
+import Banner from './components/Banner.jsx'
+
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
@@ -9,6 +16,7 @@ import DragBox from "./components/DragBox.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    <Banner />
     <App />
     <DragBox />
   </React.StrictMode>
