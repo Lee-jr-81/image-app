@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
@@ -41,6 +41,7 @@
   color: #888;
 }
 
+
 /*---- Banner section styling ----*/
 
 .banner-wrapper .h2-title {
@@ -74,3 +75,80 @@
     background-position: 200% center;
   
 }}
+
+/* INITIAL ADDITIONS */
+
+/*----------- Navbar formatting ------------*/
+.navbar {
+  position: fixed;
+  width: 100% !important;
+  background-color: transparent;
+  background-image: url(./assets/navBkgrd.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 5;
+  box-shadow: 0 5px 35px darkgrey;
+
+}
+
+.navbar-nav {
+  font-size: 30px;
+  }
+
+.navbar-brand {
+  padding-left: 50px;
+  font-size: 30px !important;
+}
+
+.nav-link {
+  color: white !important;
+    text-decoration: none;
+    margin: 0 70px 0 90px !important;
+}
+
+.nav-link:hover {
+  color: black !important;
+  font-weight: bold;
+
+/* -----------  DragBox Component styling  --------------------------------*/
+
+.main-dragbox-container {
+  display: grid;
+}
+
+.dragbox-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--boxes);
+  border-radius: 1rem;
+  min-width: 750px;
+  min-height: 250px;
+  box-shadow: 5px 5px 5px 5px #4b4b4b;
+}
+
+.title {
+  color: var(--neutral-text-dark);
+  font-size: 1.2rem;
+}
+
+.Dashed-container {
+  display: flexbox;
+  align-content: ;
+  min-width: 550px;
+  min-height: 175px;
+  background-image: linear-gradient(
+      90deg,
+      var(--neutral-text-dark) 50%,
+      transparent 0
+    ),
+    linear-gradient(90deg, var(--neutral-text-dark) 50%, transparent 0),
+    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0),
+    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0);
+  background-color: var(--boxes);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
+}
+
