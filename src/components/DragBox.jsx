@@ -1,6 +1,6 @@
 import React from "react";
 
-const DragBox = () => {
+export default function DragBox() {
   return (
     <section class="container-sm">
       <div className="dragbox-container">
@@ -11,6 +11,4 @@ const DragBox = () => {
       </div>
     </section>
   );
-};
-
-export default DragBox;
+}
