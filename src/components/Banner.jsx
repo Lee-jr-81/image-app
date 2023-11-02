@@ -13,7 +13,7 @@ export default function Banner() {
           </span>
         </h2>
       </div>
-      <h2>Why Minify?</h2>
+      <h2 id="features">Why Minify?</h2>
     </section>
   );
 }
