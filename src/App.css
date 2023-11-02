@@ -84,8 +84,9 @@
 }
 /* -----------  DragBox Component styling  --------------------------------*/
 
-.main-dragbox-container {
-  display: grid;
+.container {
+  width: 100%;
+  max-width: 700px;
 }
 
 .dragbox-container {
@@ -94,7 +95,6 @@
   align-items: center;
   background-color: var(--boxes);
   border-radius: 1rem;
-  min-width: 750px;
   min-height: 250px;
   box-shadow: 5px 5px 5px 5px #4b4b4b;
   margin-top: 8rem;
@@ -106,9 +106,13 @@
 }
 
 .Dashed-container {
-  display: flexbox;
-
-  min-width: 550px;
+  width: 100%;
+  max-width: 550px;
+  margin: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 175px;
   background-image: linear-gradient(
       90deg,
@@ -122,4 +126,14 @@
   background-position: 0 0, 0 100%, 0 0, 100% 0;
   background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
   background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
+}
+
+.upload-button {
+  -webkit-appearance: none;
+  border: none;
+  padding: 2px 5px;
+  border-radius: 2px;
+  margin-top: 2rem;
+  background-color: #ff8200;
+  box-shadow: 1px 1px 1px 1px #4b4b4b;
 }
