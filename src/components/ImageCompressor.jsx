@@ -1,3 +1,4 @@
+
 import React from "react";
 import imageCompression from "browser-image-compression";
 import { Card, Button } from "react-bootstrap";
@@ -29,3 +30,5 @@ class imageCompressor extends React.Component {
     });
   };
 }
+
+
