@@ -32,4 +32,10 @@ span {
   color: var(--accent-orange);
 }
 
+input {
+  background-color: var(--accent-orange) !important;
+  border-color: var(--accent-orange) !important;
+  color: #fff !important;
+}
+
 /* Reintroduce later */
