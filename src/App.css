@@ -9,6 +9,11 @@
 
 .banner-wrapper {
   margin-top: 4rem;
+  text-align: center;
+}
+
+.banner-wrapper h1 span.cpr {
+  display: block;
 }
 
 .banner-wrapper .h2-title {
@@ -47,6 +52,15 @@
     background-position: 200% center;
   }
 }
+
+/*---- Features section styling ----*/
+
+.features-wrapper {
+  margin-top: 8rem;
+  text-align: center;
+  
+}
+
 
 /* INITIAL ADDITIONS */
 
