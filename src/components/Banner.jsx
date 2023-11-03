@@ -12,7 +12,7 @@ export default function Banner() {
             Enhanced JPEG, PNG, SVG, GIF and WEBP optimization
           </span>
         </h2>
-        <h4 clas="tag">Why Minify?</h4>
+        <h4 class="tag">Why Minify?</h4>
       </div>
       
     </section>

@@ -3,7 +3,7 @@ import React from "react";
 export default function Banner() {
   return (
     <section class="container">
-      <div class="features-wrapper">
+      <div class="features-wrapper" id="features">
         <h1>
          #Features section goes here 
         </h1>
