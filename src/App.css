@@ -53,6 +53,15 @@
   }
 }
 
+/*---- Features section styling ----*/
+
+.features-wrapper {
+  margin-top: 8rem;
+  text-align: center;
+  
+}
+
+
 /* INITIAL ADDITIONS */
 
 /*----------- Navbar formatting ------------*/

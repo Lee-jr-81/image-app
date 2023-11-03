@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner.jsx";
 import DragBox from "./components/DragBox.jsx";
+import Features from "./components/Features.jsx";
 
 import "./App.css";
 
@@ -15,6 +16,9 @@ function App() {
         <Banner />
 
         <DragBox />
+
+        <Features />
+
       </div>
     </>
   );
