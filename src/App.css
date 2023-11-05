@@ -60,6 +60,35 @@
   text-align: center;
 }
 
+.feat-row {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--boxes);
+  border-radius: 1rem;
+  margin-top: 2rem;
+  
+}
+
+.feat-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  margin: 18px 30px;
+}
+
+b {
+  color:#ff8200;
+}
+
+
+.feat-img {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  align-content: center;
+}
+
+
 /* INITIAL ADDITIONS */
 
 /*----------- Navbar formatting ------------*/
