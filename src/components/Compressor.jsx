@@ -92,11 +92,19 @@ function Compressor() {
   //
   //
   // -------------------------------------------------- COMPONENT STYLING ------------------------------------
-  // 
-  // 
-  // Set a return, to display the component teh page.
-  // 
+  //
+  //
+  // Set a return, to display the component on the page.
+  //
   return (
-    
-  ) 
+    <div className="top-level-container">
+      <div className="upload-container">
+        <Card.Img className="image" variant="top" src={originalLink}></Card.Img>
+      </div>
+      <div className="compress-button"></div>
+      <div className="download-container"></div>
+    </div>
+  );
 }
+
+export default Compressor;
