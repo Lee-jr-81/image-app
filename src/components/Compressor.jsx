@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import imageCompression from "browser-image-compression";
 // Import card component from bootstrap, just in case required...
 import { Card } from "react-bootstrap";
+import Upload from "../assets/upload.png";
+import Download from "../assets/download.png";
 //
 //
 //
@@ -99,10 +101,59 @@ function Compressor() {
   return (
     <div className="top-level-container">
       <div className="upload-container">
-        <Card.Img className="image" variant="top" src={originalLink}></Card.Img>
+        {uploadImage ? (
+          <img className="image" variant="top" src={originalLink}></img>
+        ) : (
+          <img className="" variant="top" src={Upload}></img>
+        )}
+
+        <input
+          type="file"
+          accept="image/*"
+          className="mt-2 btn btn-dark"
+          onChange={(event) => uploadLink(event)}
+        />
       </div>
-      <div className="compress-button"></div>
-      <div className="download-container"></div>
+      <div className="compress-button">
+        <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt-4 col-sm-12 d-flex justify-content-center align-items-baseline">
+          <br />
+          {outputFileName ? (
+            <button
+              type="button"
+              className=" btn btn-dark"
+              onClick={(e) => click(e)}
+            >
+              Compress
+            </button>
+          ) : (
+            <></>
+          )}
+        </div>
+      </div>
+      <div className="download-container">
+        <Card.Img
+          className="image"
+          variant="top"
+          src={compressedLink}
+        ></Card.Img>
+        {clicked ? (
+          <div className="d-flex justify-content-center">
+            <a
+              href={compressedLink}
+              download={outputFileName}
+              className="mt-2 btn btn-dark w-75"
+            >
+              Download
+            </a>
+          </div>
+        ) : (
+          <Card.Img
+            className="uploadCard"
+            variant="top"
+            src={Download}
+          ></Card.Img>
+        )}
+      </div>
     </div>
   );
 }

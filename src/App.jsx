@@ -4,7 +4,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner.jsx";
-import DragBox from "./components/DragBox.jsx";
+// import DragBox from "./components/DragBox.jsx";
 import Features from "./components/Features.jsx";
 import Compressor from "./components/Compressor.jsx";
 
