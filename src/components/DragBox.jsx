@@ -5,7 +5,7 @@ export default function DragBox() {
     <section class="container">
       <div className="dragbox-container">
         <div className="Dashed-container">
-          <div class="card bg-dark text-white">
+          {/* <div class="card bg-dark text-white">
             <img
               class="card-img"
               src="https://testersdock.com/wp-content/uploads/2017/09/file-upload-1280x640.png"
@@ -13,7 +13,7 @@ export default function DragBox() {
             />
             <div class="card-img-overlay"></div>
             <h1 className="title">Drag Your Images Or Click To Browse</h1>
-          </div>
+          </div> */}
           <input
             type="file"
             accept="image/*"
