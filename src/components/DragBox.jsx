@@ -6,11 +6,11 @@ export default function DragBox() {
       <div className="dragbox-container">
         <div className="Dashed-container">
           <div class="card bg-dark text-white">
-            <img
+            {/* <img
               class="card-img"
               src="https://testersdock.com/wp-content/uploads/2017/09/file-upload-1280x640.png"
               alt="Card image"
-            />
+            /> */}
             <div class="card-img-overlay"></div>
             <h1 className="title">Drag Your Images Or Click To Browse</h1>
           </div>
