@@ -2,14 +2,11 @@ import React from "react";
 
 export default function Banner() {
   return (
-    <section class="container">
+    <section class="features-container"id="features">
       <div class="features-wrapper">
-        <h1>
-         #Features section goes here 
+        <h1 class="features-title">
+         Features 
         </h1>
-        <h4>better page speed ranking</h4>
-        <h4>SEO</h4>
-        <h4>Quality Compression</h4>
       </div>
      
      <div class="feat-row">
@@ -19,15 +16,15 @@ export default function Banner() {
         </div>
         
         <div class="feat-img">
-            <span class=""></span><img alt="" class="" data-src="/example.svg" width="234" height="234" src="/example.svg"></img>
+            <span class=""></span><img alt="" class="" data-src="/example.svg" width="230" height="230" src="src/assets/speedometer.png"></img>
         </div>
 
      </div>
 
      <div class="feat-row">
 
-     <div class="feat-img">
-            <span class=""></span><img alt="" class="" data-src="/example.svg" width="234" height="234" src="/example.svg"></img>
+     <div class="feat-img-mid">
+            <span class=""></span><img alt="" class="" data-src="/example.svg" width="230" height="230" src="src/assets/seo.png"></img>
         </div>
         
         <div class="feat-text">
@@ -43,7 +40,7 @@ export default function Banner() {
         </div>
         
         <div class="feat-img">
-            <span class=""></span><img alt="" class="" data-src="/example.svg" width="234" height="234" src="/example.svg"></img>
+            <span class=""></span><img alt="" class="" data-src="/example.svg" width="230" height="230" src="src/assets/secure.png"></img>
         </div>
 
      </div>
