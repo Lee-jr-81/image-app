@@ -30,6 +30,7 @@ function Compressor() {
   const [clicked, setClicked] = useState("");
   const [uploadImage, setUploadImage] = useState("");
   const [outputFileName, setOutputFileName] = useState("");
+  let downloadClass = document.getElementsByClassName("download-container");
   //
   //
   //
@@ -57,6 +58,9 @@ function Compressor() {
   }
   //
   //
+  // function upload() {
+  //   const [originalImage, setOriginalImage] = useState(true);
+  // }
   //
   // This function will be called when the user clicks on the compress button.
   // Again we set the parameter to be the event object. In this case being the click of the compress button.
@@ -77,6 +81,7 @@ function Compressor() {
       alert("Sorry, you need a larger image");
       return 0;
     }
+
     //
     // This section of code will compress the image and create a download link for the compressed image.
     let output;
@@ -91,6 +96,7 @@ function Compressor() {
   //
   //
   //
+
   //
   //
   // -------------------------------------------------- COMPONENT STYLING ------------------------------------
@@ -114,7 +120,10 @@ function Compressor() {
           onChange={(event) => uploadLink(event)}
         />
       </div>
-      <div className="compress-button">
+      <div
+        className="compress-button"
+        style={{ display: originalImage ? "block" : "none" }}
+      >
         <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt-4 col-sm-12 d-flex align-items-baseline">
           <br />
           {outputFileName ? (
@@ -130,9 +139,12 @@ function Compressor() {
           )}
         </div>
       </div>
-      <div className="download-container">
+      <div
+        className="download-container"
+        style={{ display: clicked ? "flex" : "none" }}
+      >
         <Card.Img
-          className="image"
+          className="image compressed-img"
           variant="top"
           src={compressedLink}
         ></Card.Img>
@@ -141,7 +153,7 @@ function Compressor() {
             <a
               href={compressedLink}
               download={outputFileName}
-              className="mt-2 btn btn-dark w-75"
+              className="mt-2 btn btn-dark orange-button"
             >
               Download
             </a>
