@@ -38,6 +38,14 @@ input {
   color: #fff !important;
 }
 
+button {
+  background-color: var(--accent-orange) !important;
+  border-color: var(--accent-orange) !important;
+  color: #fff !important;
+  font-size: 2rem !important;
+  padding: 5px 20px !important;
+}
+
 img {
   max-width: 400px;
 }

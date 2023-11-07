@@ -82,7 +82,6 @@
 
 .features-wrapper {
   margin-top: 8rem;
-  
 }
 
 .feat-row {
@@ -91,7 +90,6 @@
   background-color: var(--boxes);
   border-radius: 1rem;
   margin-top: 2rem;
-  
 }
 
 .feat-text {
@@ -100,18 +98,15 @@
   color: white;
   margin: 18px 30px;
   font-size: 17px;
-  
-  
 }
 
 b {
-  color:#ff8200;
+  color: #ff8200;
 }
 
 p {
-  margin-top: 5px!important;
+  margin-top: 5px !important;
 }
-
 
 .feat-img {
   display: flex;
@@ -129,16 +124,11 @@ p {
   padding-left: 25px;
 }
 
-
 /* INITIAL ADDITIONS */
-
-
-
-
 
 /*---------- Footer Styling ----------*/
 
-footer { 
+footer {
   background: linear-gradient(to right, #444241, #323031);
 }
 
@@ -257,7 +247,24 @@ footer {
   align-items: center;
   padding: 2rem;
   border-radius: 3.2rem;
+  margin-top: 2.5rem;
+}
+
+.download-container {
+  width: 100%;
+  max-width: 900px;
+  background-color: #292929;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 3.2rem;
   box-shadow: 5px 5px 5px 5px #1d1d1d;
+  margin-top: 5rem;
+}
+
+.compress-button {
+  margin-top: 5rem;
 }
 
 .input-container {
