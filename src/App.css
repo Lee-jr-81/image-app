@@ -9,6 +9,7 @@
 
 .banner-wrapper {
   margin-top: 4rem;
+  margin-bottom: 3rem;
   text-align: center;
 }
 
@@ -87,9 +88,11 @@
 .feat-row {
   display: flex;
   flex-direction: row;
-  background-color: var(--boxes);
+  background-color: #292929;
   border-radius: 1rem;
   margin-top: 2rem;
+  justify-content: space-between;
+  
 }
 
 .feat-text {
@@ -123,6 +126,7 @@ p {
   align-content: center;
   padding-left: 25px;
 }
+
 
 /* INITIAL ADDITIONS */
 
@@ -177,6 +181,15 @@ footer {
 .nav-link:hover {
   color: black !important;
   font-weight: bold;
+}
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.logo {
+  border-radius: 10%;
+  margin-right: 10px;
 }
 /* -----------  DragBox Component styling  --------------------------------*/
 
