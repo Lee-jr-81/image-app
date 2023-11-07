@@ -27,7 +27,7 @@ export default function Banner() {
      <div class="feat-row">
         
         <div class="feat-text">
-            <h3 class=""><b>Smaller</b> images, <b>Faster</b> websites</h3><p class="lead text-white">Websites images are usually too big and unoptimized for web purposes. It is easy to save a few megabytes by compressing your assets without noticing any loss in quality.</p>
+            <h3 class=""><b>Compressed</b> images mean <b>Quicker</b> websites</h3><p class="lead text-white">Image compression improves your site’s performance with faster page loading times. This is essential for a good overall User Experience (UX).</p>
         </div>
         
         <div class="feat-img">
@@ -43,7 +43,7 @@ export default function Banner() {
         </div>
         
         <div class="feat-text">
-            <h3 class=""><b>Smaller</b> images, <b>Faster</b> websites</h3><p class="">Websites images are usually too big and unoptimized for web purposes. It is easy to save a few megabytes by compressing your assets without noticing any loss in quality.</p>
+            <h3 class=""><b>Smaller</b> images are important for <b>SEO</b></h3><p class="lead text-white">One of Google’s key ranking factors is optimized images when determining where to place your content on its search engine results pages.</p>
         </div>
         
      </div>
@@ -51,7 +51,7 @@ export default function Banner() {
      <div class="feat-row">
         
         <div class="feat-text">
-            <h3 class=""><b>Smaller</b> images, <b>Faster</b> websites</h3><p class="">Websites images are usually too big and unoptimized for web purposes. It is easy to save a few megabytes by compressing your assets without noticing any loss in quality.</p>
+            <h3 class=""><b>Lossy</b> and <b>Lossless</b> compression</h3><p class="lead text-white">Lossless compression can reduce file sizes without affecting their quality.</p>
         </div>
         
         <div class="feat-img">
