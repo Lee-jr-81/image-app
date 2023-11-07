@@ -154,15 +154,20 @@ footer {
   background-repeat: no-repeat;
   z-index: 5;
   box-shadow: 0 5px 35px darkgrey;
+  
 }
 
-.navbar-collapse {
-  display: flex;
-  justify-content: flex-end;
+.display-class {
+  margin: 2px 2px !important;
+  padding: 5px !important;
 }
+
 
 .navbar-nav {
   font-size: 30px;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-end !important;
 }
 
 .navbar-brand {
@@ -176,6 +181,7 @@ footer {
   color: white !important;
   text-decoration: none;
   margin-left: 50px;
+  
 }
 
 .nav-link:hover {
