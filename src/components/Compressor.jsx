@@ -115,7 +115,7 @@ function Compressor() {
         />
       </div>
       <div className="compress-button">
-        <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt-4 col-sm-12 d-flex justify-content-center align-items-baseline">
+        <div className="col-xl-4 col-lg-4 col-md-12 mb-5 mt-4 col-sm-12 d-flex align-items-baseline">
           <br />
           {outputFileName ? (
             <button
