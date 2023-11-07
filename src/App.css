@@ -188,6 +188,15 @@ footer {
   color: black !important;
   font-weight: bold;
 }
+
+.nav-item {
+  padding-right: 10px;
+}
+
+.logo {
+  border-radius: 10%;
+  margin-right: 10px;
+}
 /* -----------  DragBox Component styling  --------------------------------*/
 
 .container {

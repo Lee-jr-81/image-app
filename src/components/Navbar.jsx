@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo-small.jpg";
+import LogIn from "../components/Modal.jsx";
 
 
 export default function navbar() {
@@ -7,10 +8,10 @@ export default function navbar() {
     <section>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span className="navbar-brand" href="#">
-          <img src={Logo} width="40" height="40" class="d-inline-block align-top"/>  
+        <a className="navbar-brand" href="#">
+          <img src={Logo} width="40" height="40" class="d-inline-block align-center logo"/>  
           Minify
-        </span>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,6 +25,9 @@ export default function navbar() {
             </li>
             <li class="nav-item">
             <a class="nav-link" href="#compressor">Compress</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href={LogIn}>Log In</a>
             </li>
 
           </ul>
