@@ -1,15 +1,15 @@
 import React from "react";
-// import { BrowserRouter, Route, Link } from "react-router-dom";
+
 
 export default function navbar() {
   return (
     <section>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          <img src="../assets/logo-small.jpg" />
+        <span className="navbar-brand" href="#">
+          <img src="../assets/logo-small.jpg" width="30" height="30"/>
           Minify
-        </a>
+        </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -22,7 +22,7 @@ export default function navbar() {
               <a class="nav-link" href="#features">Features</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#exampleModal" data-toggle="modal" data-target="#exampleModal">Log In</a>
+            <a class="nav-link" href="#compressor">Compress</a>
             </li>
 
           </ul>
@@ -31,6 +31,6 @@ export default function navbar() {
 
     </section>
   );
-}
 
 
+  }

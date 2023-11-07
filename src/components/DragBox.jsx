@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DragBox() {
   return (
-    <section class="container">
+    <section class="container" id="compressor">
       <div className="dragbox-container">
         <div className="Dashed-container">
           {/* <div class="card bg-dark text-white">
