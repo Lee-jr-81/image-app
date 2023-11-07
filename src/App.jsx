@@ -7,6 +7,7 @@ import Banner from "./components/Banner.jsx";
 // import DragBox from "./components/DragBox.jsx";
 import Features from "./components/Features.jsx";
 import Compressor from "./components/Compressor.jsx";
+import Footer from "./components/Footer.jsx";
 
 import "./App.css";
 
@@ -21,6 +22,8 @@ function App() {
         <Compressor />
 
         <Features />
+
+        <Footer />
       </div>
     </>
   );
