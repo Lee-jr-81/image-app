@@ -30,7 +30,6 @@ function Compressor() {
   const [clicked, setClicked] = useState("");
   const [uploadImage, setUploadImage] = useState("");
   const [outputFileName, setOutputFileName] = useState("");
-  let downloadClass = document.getElementsByClassName("download-container");
   //
   //
   //
@@ -56,11 +55,6 @@ function Compressor() {
     setOutputFileName(imageFile.name);
     setUploadImage(true);
   }
-  //
-  //
-  // function upload() {
-  //   const [originalImage, setOriginalImage] = useState(true);
-  // }
   //
   // This function will be called when the user clicks on the compress button.
   // Again we set the parameter to be the event object. In this case being the click of the compress button.

@@ -58,22 +58,17 @@
 
 .features-title {
   font-size: 60px;
-  /* text-align: left; */
   padding: 0.7rem;
   padding-top: revert-layer;
-  /* background-color: #3d3c3a; */
   border-top: 1px solid var(--accent-orange);
   border-bottom: 1px solid var(--accent-orange);
   border-right: 10px solid var(--accent-orange);
   border-left: 1px solid var(--accent-orange);
-  /* box-shadow: -1px 1px 2px rgba(215, 147, 11, 0.544); */
   display: inline-block;
   margin-bottom: 1rem;
   align-self: flex-start;
   border-radius: 6px;
-  /* text-transform: uppercase; */
-  /* font-weight: 800; */
-  /* letter-spacing: .13rem; */
+
 }
 .features-container {
   width: 90%;
@@ -126,7 +121,6 @@ p {
   padding-left: 25px;
 }
 
-/* INITIAL ADDITIONS */
 
 /*---------- Footer Styling ----------*/
 
@@ -187,63 +181,9 @@ footer {
   font-weight: bold;
 }
 
-.nav-item {
-  padding-right: 10px;
-}
-
 .logo {
   border-radius: 10%;
   margin-right: 10px;
-}
-/* -----------  DragBox Component styling  --------------------------------*/
-
-.container {
-  width: 100%;
-  max-width: 700px;
-}
-
-.dragbox-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--boxes);
-  border-radius: 1rem;
-  min-height: 250px;
-  box-shadow: 5px 5px 5px 5px #4b4b4b;
-  margin-top: 8rem;
-}
-
-.title {
-  color: var(--neutral-text-dark);
-  font-size: 1.2rem;
-}
-
-.Dashed-container {
-  width: 100%;
-  max-width: 550px;
-  margin: 1.2rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 175px;
-  background-image: linear-gradient(
-      90deg,
-      var(--neutral-text-dark) 50%,
-      transparent 0
-    ),
-    linear-gradient(90deg, var(--neutral-text-dark) 50%, transparent 0),
-    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0),
-    linear-gradient(180deg, var(--neutral-text-dark) 50%, transparent 0);
-  background-color: var(--boxes);
-  background-position: 0 0, 0 100%, 0 0, 100% 0;
-  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
-  background-size: 15px 3px, 15px 3px, 3px 15px, 3px 15px;
-}
-
-.card {
-  width: 100%;
-  height: 100%;
 }
 
 /* -----------------------------------  COMPRESSOR SECTION STYLING --------------------------- */
