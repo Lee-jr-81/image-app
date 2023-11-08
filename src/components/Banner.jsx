@@ -8,7 +8,7 @@ export default function Banner() {
           Superfast & easy image <span class="cpr">compression</span>
         </h1>
         <h2 class="h2-title">
-          <span class="">
+          <span>
             Enhanced JPEG, PNG, SVG, GIF and WEBP optimization
           </span>
         </h2>

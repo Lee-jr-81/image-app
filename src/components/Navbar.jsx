@@ -3,12 +3,8 @@ import Logo from "../assets/logo-small.jpg";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Modal from "react-bootstrap/Modal";
-
 
 export default function navbar() {
-
- 
 
   return (
     <Navbar expand="lg" className="bg-body-tertiary navbar">
