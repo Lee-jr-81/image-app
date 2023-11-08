@@ -15,10 +15,7 @@
 - [Features](#features)
 - [Feedback](#feedback)
 - [Contributors](#contributors)
-- [Build Process](#build-process)
-- [Backers](#backers-)
-- [Sponsors](#sponsors-)
-- [Acknowledgments](#acknowledgments)
+- [Using Minify](#using-minify)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
