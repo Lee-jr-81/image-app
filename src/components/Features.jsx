@@ -1,4 +1,7 @@
 import React from "react";
+import Speedometer from "../assets/speedometer.png";
+import SEO from "../assets/seo.png";
+import Secure from "../assets/secure.png";
 
 export default function Banner() {
   return (
@@ -31,7 +34,7 @@ export default function Banner() {
         </div>
 
         <div class="feat-img">
-          <span></span><img alt="speedometer" width="230" height="230" src="src/assets/speedometer.png"></img>
+          <span></span><img alt="speedometer" width="230" height="230" src={Speedometer}></img>
         </div>
 
       </div>
@@ -39,7 +42,7 @@ export default function Banner() {
       <div class="feat-row">
 
         <div class="feat-img-mid">
-          <span></span><img alt="SEO image" width="230" height="230" src="src/assets/seo.png"></img>
+          <span></span><img alt="SEO image" width="230" height="230" src={SEO}></img>
         </div>
 
         <div class="feat-text">
@@ -55,7 +58,7 @@ export default function Banner() {
         </div>
 
         <div class="feat-img">
-          <span></span><img alt="linked chains" width="230" height="230" src="src/assets/secure.png"></img>
+          <span></span><img alt="linked chains" width="230" height="230" src={Secure}></img>
         </div>
 
       </div>
